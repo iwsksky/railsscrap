@@ -1,0 +1,2 @@
+module ConnpassesHelper
+end

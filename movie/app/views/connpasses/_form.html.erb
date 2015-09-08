@@ -1,0 +1,17 @@
+<%= form_for(@connpass) do |f| %>
+  <% if @connpass.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@connpass.errors.count, "error") %> prohibited this connpass from being saved:</h2>
+
+      <ul>
+      <% @connpass.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

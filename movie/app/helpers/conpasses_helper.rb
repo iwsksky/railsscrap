@@ -1,0 +1,2 @@
+module ConpassesHelper
+end
