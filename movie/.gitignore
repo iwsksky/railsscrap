@@ -11,3 +11,9 @@
 /log/*
 !/log/.keep
 /tmp
+Gemfile
+Gemfile.lock
+/config/database.yml
+/config/schedule.rb
+/config/secrets.yml
+
